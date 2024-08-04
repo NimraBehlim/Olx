@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.options p i{
+    /* background-color: rgba(231, 229, 229, 0.959); */
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    border-radius: 50%;
+}
+.location li{
+    border: 2px solid rgb(232, 226, 226);
+}
+ .fancy-border{
+    border-image:   linear-gradient(to right, yellow 25%, rgb(55, 237, 222) 25%, yellow 50%,blue 50%, blue 75%, teal 75%) 5;
+ }
+ .buttons button{
+    background-color: #ffff;
+    border-radius: 30%;
+ }
+nav.navbar{
+    border-bottom: 1.5px solid rgb(198, 196, 196);
+}
+.options:hover{
+    color: rgb(36, 36, 155);
+    cursor: pointer;
+}
+.categories-list{
+    cursor: pointer;
+}
+.categories-list>p:hover{
+    color: aquamarine;
+}
+.card img{
+    width: 100% !important;
+    height: 200px;
+    background-size: cover;
+}
